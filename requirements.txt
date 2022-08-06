@@ -3,5 +3,5 @@ Pillow>=7.2.0
 matplotlib>=3.2.2
 ipywidgets>=7.5.1
 voila>=0.2.4
-https://download.pytorch.org/whl/cpu/torch-1.11.0-cp37-cp37m-linux_x86_64.whl  
-https://download.pytorch.org/whl/cpu/torchvision-0.11.0-cp37-cp37m-linux_x86_64.whl 
+https://download.pytorch.org/whl/cpu/torch-1.1.0-cp37-cp37m-linux_x86_64.whl  
+https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp37-cp37m-linux_x86_64.whl 
