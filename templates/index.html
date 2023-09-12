@@ -1,0 +1,81 @@
+<!-- Developed by: MOAZ -->
+
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block head_content %}
+<style>
+    img {
+        width: 50%;
+    }
+    .flex-container {
+        /*position: relative;*/
+        display: flex;
+        overflow: auto;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="'info">
+    <h1 class="mt-4"><center>Whitebox Cartoonization Application</center></h1>
+    <p>Whitebox Cartoonization is a generative app employing a trained Generative Adversarial Network (GAN) 
+        to achieve the goal of animating any image. 
+    </p>
+    <p>Below are a few examples of animated images generated via my cartoonization app</p>
+
+    <div class="flex-container">
+        <img src="{{ url_for('static', filename='images/gigi_cartoon.png') }}" class="rounded mx-auto d-block image-margin" alt="Image" style="margin-right: 10px;">
+        <img src="{{ url_for('static', filename='images/pizza_cartoon.png') }}" class="rounded mx-auto d-block image-margin" alt="Image" style="margin-right: 10px;">
+    </div>
+    <div class="flex-container">
+        <img src="{{ url_for('static', filename='images/oxford_cartoon.png') }}" class="rounded mx-auto d-block image-margin" alt="Image" style="margin-right: 10px;">
+        <img src="{{ url_for('static', filename='images/dubai_cartoon.png') }}" class="rounded mx-auto d-block image-margin" alt="Image" style="margin-right: 10px;">
+    </div>
+    
+</div>
+
+<br>
+<div class="container">
+    <h1 class="mt-4"><center>Try it!!</center></h1>
+    <p>Now you get a chance to animate any image of your choice.</p>
+    <p>Upload an image below to cartoonize it.</p>
+    <form id="inferenceForm" method="post" enctype="multipart/form-data">
+        <label for="image">Select an image:</label>
+        <input class="form-control" type="file" name="image" id="image" required>
+        
+        <br>
+        <input class="btn btn-primary" type="submit" value="cartoonize">
+    </form>
+
+    <div id="spinner" class="text-center" style="display: none;">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <br><br>
+    {% if fake_image %}
+        <div class="flex-container">
+            <img src="{{ fake_image }}" class="rounded mx-auto d-block image-margin" alt="Image" style="margin-right: 10px; margin-bottom: 20px; width: 30%; height: 30%;">
+        </div>
+    {% endif %}
+</div>
+
+
+{% endblock %}
+
+{% block custom_js %}
+<script>
+    // Show the spinner when the form is submitted
+    document.getElementById('inferenceForm').addEventListener('submit', function() {
+        document.getElementById('spinner').style.display = 'block';
+    });
+</script>
+{% endblock %}
+
+<!-- Developed by: MOAZ -->
