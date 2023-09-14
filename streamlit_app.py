@@ -33,10 +33,10 @@ def main():
     col1, col2, col3, col4 = st.columns(4)
 
     example_images = [
-        "images/gigi_cartoon.png",
-        "images/pizza_cartoon.png",
-        "images/oxford_cartoon.png",
-        "images/dubai_cartoon.png"
+        "static/images/gigi_cartoon.png",
+        "static/images/pizza_cartoon.png",
+        "static/images/oxford_cartoon.png",
+        "static/images/dubai_cartoon.png"
     ]
 
     for i, img_path in enumerate(example_images):
