@@ -4,7 +4,6 @@ import torch.nn.functional as F
 import torchvision
 from torchvision import transforms
 from PIL import Image
-import matplotlib.pyplot as plt
 
 class ResidualBlock(nn.Module):
     def __init__(self, channels, kernel_size, stride, padding, padding_mode):
