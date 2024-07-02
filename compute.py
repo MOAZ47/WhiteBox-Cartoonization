@@ -118,7 +118,8 @@ def resize_crop(image):
       w = diff_width + w
     else:
       w = diff_width
-  image = image.resize((w, h), Image.ANTIALIAS)
+  #image = image.resize((w, h), Image.ANTIALIAS)
+  image = image.resize((w, h))
   print("Done resizing")
   return image
 
