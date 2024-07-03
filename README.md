@@ -92,8 +92,8 @@ At the start of training, the FID value was around 510, which decreased to aroun
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/MOAZ47/white-box-cartoonization.git
-    cd white-box-cartoonization
+    git clone https://github.com/MOAZ47/WhiteBox-Cartoonization.git
+    cd WhiteBox-Cartoonization
     ```
 
 2. Install the required packages:
