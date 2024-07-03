@@ -84,7 +84,7 @@ At the start of training, the FID value was around 510, which decreased to aroun
 
 ## Examples
 
-![Example 1](path/to/your/image1.png)
+![Example 1](static/images/pizza_cartoon.png)
 ![Example 2](path/to/your/image2.png)
 
 ## Installation
