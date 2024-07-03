@@ -14,7 +14,7 @@ https://whitebox-cartoonization-xhjdgjxxck4sk9bylpajol.streamlit.app/
 
 ## Introduction
 
-Animation is used widely in many fields like films and gaming. This repository provides an implementation of the paper [**“Learning to Cartoonize Using White-Box Representation”** by Xinrui Wang et al] (https://ieeexplore.ieee.org/document/9157493). The authors propose a method to cartoonize real-world images by identifying three different representations of an image: surface representation, structure representation, and texture representation. These representations are then used along with a Generative Adversarial Network (GAN) to produce animated images with harmonious colors and diverse artistic styles.
+Animation is used widely in many fields like films and gaming. This repository provides an implementation of the paper [**“Learning to Cartoonize Using White-Box Representation”** by Xinrui Wang et al](https://ieeexplore.ieee.org/document/9157493). The authors propose a method to cartoonize real-world images by identifying three different representations of an image: surface representation, structure representation, and texture representation. These representations are then used along with a Generative Adversarial Network (GAN) to produce animated images with harmonious colors and diverse artistic styles.
 
 ## Methodology
 
