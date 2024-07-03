@@ -91,7 +91,7 @@ At the start of training, the FID value was around 510, which decreased to aroun
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/white-box-cartoonization.git
+    git clone https://github.com/MOAZ47/white-box-cartoonization.git
     cd white-box-cartoonization
     ```
 
@@ -102,9 +102,13 @@ At the start of training, the FID value was around 510, which decreased to aroun
 
 3. Run the application:
     ```bash
-    python main.py
+    python compute.py
     ```
-
+4. To run the streamlit application:
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+   
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
