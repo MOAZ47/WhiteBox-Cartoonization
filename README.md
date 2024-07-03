@@ -109,16 +109,13 @@ At the start of training, the FID value was around 510, which decreased to aroun
    streamlit run streamlit_app.py
    ```
    
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## References
 
-1. Xinrui Wang et al, "Learning to Cartoonize Using White-Box Representation".
-2. References to filter-based and optimization techniques.
-3. Deep guided filter reference.
-4. Felzenswalb algorithm reference.
-5. GANs reference.
-6. Image-to-image translation reference.
-7. Frechet distance reference.
+1. [Xinrui Wang et al, "Learning to Cartoonize Using White-Box Representation".](https://ieeexplore.ieee.org/document/9157493)
+2. [References to filter-based and optimization techniques.](https://ieeexplore.ieee.org/document/710815)
+3. [Deep guided filter reference.](https://openaccess.thecvf.com/content_cvpr_2018/html/Wu_Fast_End-to-End_Trainable_CVPR_2018_paper.html)
+4. [Felzenswalb algorithm reference.](https://link.springer.com/article/10.1023/B:VISI.0000022288.19776.77)
+5. [GANs reference.](https://papers.nips.cc/paper/2014/hash/5ca3e9b122f61f8f06494c97b1afccf3-Abstract.html)
+6. [Image-to-image translation reference.](https://www.researchgate.net/publication/320966887_Image-to-Image_Translation_with_Conditional_Adversarial_Networks)
+7. [Frechet distance reference.](https://wandb.ai/ayush-thakur/gan-evaluation/reports/How-to-Evaluate-GANs-using-Frechet-Inception-Distance-FID---Vmlldzo0MTAxOTI)
