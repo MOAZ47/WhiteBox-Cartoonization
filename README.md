@@ -2,7 +2,7 @@
 
 ## Link to Demo App
 
-https://whitebox-cartoonization-xhjdgjxxck4sk9bylpajol.streamlit.app/
+[Link](https://whitebox-cartoonization-xhjdgjxxck4sk9bylpajol.streamlit.app/)
 
 <!--https://whitebox-cartoonization-xhjdgjxxck4sk9bylpajol.streamlit.app/-->
 <!--[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MOAZ47/WhiteBox-Cartoonization/HEAD?urlpath=voila%2Frender%2Fapp.ipynb)-->
