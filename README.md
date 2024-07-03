@@ -1,5 +1,7 @@
 # WhiteBox-Cartoonization
 
+## Link to Demo App
+
 https://whitebox-cartoonization-xhjdgjxxck4sk9bylpajol.streamlit.app/
 
 <!--https://whitebox-cartoonization-xhjdgjxxck4sk9bylpajol.streamlit.app/-->
@@ -9,7 +11,7 @@ https://whitebox-cartoonization-xhjdgjxxck4sk9bylpajol.streamlit.app/
 
 ---
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+<!--![License](https://img.shields.io/badge/license-MIT-blue.svg)-->
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 
 ## Introduction
@@ -85,7 +87,6 @@ At the start of training, the FID value was around 510, which decreased to aroun
 ## Examples
 
 ![Example 1](static/images/pizza_cartoon.png)
-![Example 2](path/to/your/image2.png)
 
 ## Installation
 
