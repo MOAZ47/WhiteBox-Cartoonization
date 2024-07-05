@@ -72,6 +72,13 @@ The generator is a fully-convolutional U-Net-like network with an encoder-decode
 - Lambda Content: 200
 - Lambda Variation: 10000
 
+### Files
+- **app.py**: Flask app; contains code for transferring image files between frontend and backend
+- **compute.py**: Contains code of the custom generative architecture built for this project. Helps in image-to-image translation of image.
+- **streamlit_app.py**: Streamlit app; contains code for deploying the streamlit application.
+- **voila_app.ipynb**: Transforms the Jupyter Notebook into a web-based application
+- **201_last_gen.pth.tar**: Contains the pickle file of the trained model.
+
 ### Dataset
 
 We created a diverse dataset containing real-world photos from the FFHQ dataset and various landscapes. Cartoon images were collected from the works of "Makoto Shinkai". The training set consists of 2500 real-world photos and 2500 cartoon photos, with a validation set of 2500 photos.
